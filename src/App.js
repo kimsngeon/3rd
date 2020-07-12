@@ -112,13 +112,13 @@ function App() {
     <div>
       <Background />
 
-      <div class="load-box">
+      <div className="load-box">
         {ImageElements}
-        <button class="arrow" onClick={loadPreviousImage}>
+        <button className="arrow" onClick={loadPreviousImage}>
           {" "}
           ←{" "}
         </button>
-        <button class="arrow" onClick={loadNextImage}>
+        <button className="arrow" onClick={loadNextImage}>
           {" "}
           →{" "}
         </button>
@@ -128,7 +128,7 @@ function App() {
       <div>
         <Awning />
 
-        <div class="favorite-box">
+        <div className="favorite-box">
           <h1 style={{ marginTop: 50 + "px" }}>Your Favorite Friends</h1>
           <Noone />
 
